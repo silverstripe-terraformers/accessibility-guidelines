@@ -17,9 +17,16 @@ function getSidebar() {
       ]
     },
     {
+      text: 'Generic',
+      children: [
+        { text: 'Animations', link: '/generic/animations' },
+      ]
+    },
+    {
       text: 'Components',
       children: [
         { text: 'Example', link: '/components/example' },
+        { text: 'Accordion', link: '/components/accordion/accordion' },
       ]
     }
   ]
