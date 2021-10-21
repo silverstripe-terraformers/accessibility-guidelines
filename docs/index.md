@@ -1,17 +1,5 @@
 # Some title?
 This is meessy while we flesh out the content...
-
-Good starting point:
-https://github.com/silverstripeltd/project-skeleton/blob/master/docs/accessibility.md#in-depth-overview-check-list
-
-^ Create some good/bad versions of the items in here so it's obvious what is good/bad
-
-
-```html line=1
-<img src="" />
-<img src="" />
-```
-
 ## Contents:
 - At a high level
 - General/page level content
