@@ -74,7 +74,7 @@ For this we're using `section` so that it shows up in screen readers that use la
 We have the following:
 - The two `id`'s set so we can start to form relations between the two elements
 - `aria-controls` on the `<button />` so that we clearly inform screen readers that this button controls the section with our contents.
-- `aria-labelledby` which allos screen readers to associate the header with content
+- `aria-labelledby` which allows screen readers to associate the header with content
 - `aria-expanded` informs screen readers that this will expand/collapse the linked content
 
 **Closed state:**
