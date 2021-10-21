@@ -6,3 +6,29 @@
 .container {
     max-width: 1024px !important;
 }
+
+
+/* Support for embeds */
+/**
+
+Use like so:
+<div class="embed" style="padding-bottom:56.25%">
+    <iframe src="https://www.youtube.com/embed/LhKglxQT4sU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+Where padding-bottom is the videos ratio
+
+*/
+.embed {
+  height: 0;
+  position: relative;
+  width: 100%;
+}
+
+iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
