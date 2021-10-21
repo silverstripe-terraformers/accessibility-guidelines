@@ -15,7 +15,6 @@ function getSidebar() {
       children: [
         { text: 'What are these docs for?', link: '/' },
         { text: 'Resources', link: '/resources' },
-        { text: 'Getting started', link: '/getting-started' },
       ]
     },
     {
@@ -23,6 +22,8 @@ function getSidebar() {
       children: [
         { text: 'Animations', link: '/generic/animations' },
         { text: 'Images', link: '/generic/image' },
+        { text: 'Links', link: '/generic/links'},
+        { text: 'Navigation', link: '/generic/navigation'},
       ]
     },
     {
