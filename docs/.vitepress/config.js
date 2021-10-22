@@ -22,6 +22,8 @@ function getSidebar() {
       children: [
         { text: 'Animations', link: '/generic/animations' },
         { text: 'Images', link: '/generic/image' },
+        { text: 'Links', link: '/generic/links'},
+        { text: 'Navigation', link: '/generic/navigation'},
       ]
     },
     {
