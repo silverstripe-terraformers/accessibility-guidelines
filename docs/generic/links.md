@@ -37,21 +37,21 @@ The content that the skip links goes to is linked with an id and it moves the fo
 </div>
 ```
 :::warning
-Skip link should be placed at the top of the page
+Because the skip link is placed after the navigation on every page load a user will have to tab through every navigation link
 :::
 
 ## Generic links
 
 There's a few things to look out for when working with links:
-1. Use `aria-label`, `aria-labelledby` or the `title` attribute to provide a more descriptive accessible name when the text content of the link cannot be changed.
-2. All links should the focus style working
-3. Use the right elements. Links should always be `<a>` and actions should be `<button>`
+1. Use `aria-label`, `aria-labelledby` or the `title` attribute to provide a more descriptive name when the text content of the link cannot be changed.
+2. All links should have focus styling (don't disable the outline without an alternative)
+3. Use the right elements. Links should always be `<a>` elements and actions should be `<button>`
 #### :tada: GOOD link example
 ```html
 <a href="post.php?post=632" aria-label="More on Using Meaningful Link Text">More...</a>
 ```
 :::tip
-Would be even better if you could just avoid using non-informative link phrases(i.e."See more", "Click here") as link text.
+This would be even better if you could just avoid using non-informative link phrases(i.e."See more", "Click here") as link text.
 :::
 
 #### :lady_beetle: BAD link example
@@ -62,5 +62,5 @@ Would be even better if you could just avoid using non-informative link phrases(
 </a>
 ```
 ::: warning
-If the content of a link includes an img element(icon.etc), check if the icon actually needs the aria-label, the aria-label should also be descriptive
+If the content of a link includes an `img` element (e.g. an icon), check if the `img` actually needs the aria-label, the aria-label should also be descriptive
 :::

@@ -34,7 +34,7 @@ This will result in the screen reader reading the `crocus bulbs` twice, `alt` is
 <img src="cap.png" alt="Push the cap down and turn it counter-clockwise (from right to left)">
 ```
 :::warning
-Without adding the alt tag for contextual image, it could result in people using screen reader technologies missing out on important information.
+Without adding the alt tag for a contextual image, it could result in people using screen reader technologies missing out on important information.
 :::
 
 #### :lady_beetle: BAD contextual image example:
@@ -42,7 +42,7 @@ Without adding the alt tag for contextual image, it could result in people using
 <img src="cap.png" alt="instruction picture for how to open this special cap">
 ```
 ::: tip
-Alt should also be meaningful and describe the image accurately, it's especially important if the image is supplying information
+The `alt` attribute should also be meaningful and describe the image accurately, it's especially important if the image is supplying information
 :::
 
 **SVG** can be contextual or decorative depending on the use case.
