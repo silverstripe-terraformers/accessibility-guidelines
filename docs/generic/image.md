@@ -79,5 +79,6 @@ the most reliable choice for the different browser and screen readers that were 
 ## When should I use an `alt` tag?
 Follow the guide: https://www.w3.org/WAI/tutorials/images/decision-tree/
 
-## Resouces
+## Resources
 - SVG and accessibility? https://www.deque.com/blog/creating-accessible-svgs/
+- Better at writing alt-texts: https://axesslab.com/alt-texts/

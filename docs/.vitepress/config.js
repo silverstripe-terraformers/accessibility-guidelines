@@ -24,6 +24,7 @@ function getSidebar() {
         { text: 'Images', link: '/generic/image' },
         { text: 'Links', link: '/generic/links'},
         { text: 'Navigation', link: '/generic/navigation'},
+        { text: 'ARIA', link: '/generic/aria' },
       ]
     },
     {
